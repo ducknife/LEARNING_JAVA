@@ -1,4 +1,4 @@
-public class Practice {
+public class Practice1 {
 
     public static void print(String format, Object... values){
         System.out.printf(format, values);

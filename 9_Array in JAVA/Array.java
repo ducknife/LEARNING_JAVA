@@ -25,7 +25,7 @@ public class Array {
             }
 
             System.out.println("");
-
+            
             arr2[1] = 0; // Change value of an element by index
             for (int x : arr2){
                 System.out.printf("%d ", x);
