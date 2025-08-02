@@ -20,7 +20,7 @@ public class wrapperClass {
         float f = Float.parseFloat("123.3123");
         System.out.println(i + " " + d + " " + f);
         
-        // int i2 = Integer.valueOf("123"); cũng được mà không nên dùng vì tốn thêm bước autoboxing.
+        // int i2 = Integer.valueOf("123"); cũng được mà không nên dùng vì tốn thêm bước unboxing.
         int i2 = Integer.parseInt("22");
         System.out.println(i2);
 
@@ -28,19 +28,20 @@ public class wrapperClass {
         String H = Double.toString(123.34);
         String H2 = Integer.toString(23123);
         String H3 = Float.toString(123.23f);
+        String H8 = Character.toString('a');
 
         String H4 = String.valueOf(123);
         String H5 = String.valueOf(123.123);
         String H6 = String.valueOf(123.213f);
         String H7 = String.valueOf('a');
-        System.out.println(H + "\n" + H2 + "\n" + H3 + "\n" + H4 + "\n" + H5 + "\n" + H6 + "\n" + H7); 
+        System.out.println(H + "\n" + H2 + "\n" + H3 + "\n" + H8 + "\n" + H4 + "\n" + H5 + "\n" + H6 + "\n" + H7); 
 
         // Get const number
         System.out.println(Integer.MAX_VALUE);
         System.out.printf("%f\n", Double.MAX_VALUE);
         System.out.printf("%f\n", Float.MIN_VALUE);
 
-        // So sánh 2 wrapper: cần dùng equals() hoạc compareTo();
+        // So sánh 2 wrapper: cần dùng equals() hoặc compareTo();
         String s1 = "123";
         String s2;
         try (Scanner sc = new Scanner(System.in)){
