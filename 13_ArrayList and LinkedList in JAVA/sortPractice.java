@@ -24,5 +24,6 @@ public class sortPractice {
             }
         });
         as.forEach((str) -> System.out.println(str));
+
     }
 }

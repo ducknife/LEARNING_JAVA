@@ -9,7 +9,7 @@ public class ArrayMethods {
 
         String[] array2 = new String[5];
 
-        try ( Scanner sc = new Scanner(System.in)){
+        try (Scanner sc = new Scanner(System.in)){
             for (int i = 0; i < 5; i++){
                 array2[i] = sc.next();
             }
