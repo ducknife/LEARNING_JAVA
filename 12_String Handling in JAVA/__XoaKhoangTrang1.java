@@ -14,9 +14,9 @@ public class __XoaKhoangTrang1 {
          * Nếu xâu có nhiều hơn 1 kí tự kiểu này thì bạn cho vào ngoặc vuông và thêm dấu + ở cuối.
          * Ví dụ: "[/&^%]+"
          */
-        String s = "Nguyen  ?   Van   ./&*%%%%%   Hung   ";
+        String s = "  Nguyen  ?   Van   ./&*%%%%%   Hung   ";
         String b = "";
-        String[] ac = s.split("[ ?./*&^%]+");
+        String[] ac = s.trim().split("[ ?./*&^%]+");
         for (String x : ac){
             b += x + " ";
         }

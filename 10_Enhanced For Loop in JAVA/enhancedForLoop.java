@@ -2,7 +2,6 @@ import java.util.*;
 
 public class enhancedForLoop {
     // or forEach
-    
     public static void main(String[] args){
         int[] arr = {1, 2, 4, 5, 8};
         for (int x : arr){

@@ -45,6 +45,18 @@ public class scanInJava {
             boolean b = sc.nextBoolean();
             print("%b\n", b);
 
+            /* Nhập luồng trong java */
+            try (Scanner sc1 = new Scanner(System.in)){
+                while (sc1.hasNextLine()){ // khi còn dòng để nhập.
+                    
+                }
+                while (sc1.hasNextInt()){
+
+                }
+                while (sc1.hasNextLine()){
+
+                }
+            }
         }
     }
 }
