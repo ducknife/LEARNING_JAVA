@@ -25,8 +25,8 @@ public class setPractice {
 
         System.out.println(se2.first()); // 1
         System.out.println(se2.last()); // 7
-        System.out.println(se2.ceiling(2)); // 2
-        System.out.println(se2.floor(2)); // 2
+        System.out.println(se2.ceiling(8)); // null
+        System.out.println(se2.floor(8)); // 7
         System.out.println(se2.lower(2)); // 1
         System.out.println(se2.higher(2)); // 3
     }
